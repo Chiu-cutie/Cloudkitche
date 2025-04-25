@@ -12,6 +12,253 @@
     --light-bg: #f9f9f9;
 
 }
+.menu-warning {
+    background-color: #fff8e1;
+    border-left: 6px solid #ff9800;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .warning-header {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #d84315;
+    margin-bottom: 10px;
+  }
+  
+  .warning-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #4e342e;
+  }
+  
+  .warning-content li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .whatsapp-link {
+    color: #25D366;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .instagram-link {
+    color: #E1306C;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .whatsapp-link:hover,
+  .instagram-link:hover {
+    text-decoration: underline;
+  }
+  
+.menu-warning {
+  background-color: #fff8e1;
+  border-left: 6px solid #ff9800;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.warning-header {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #d84315;
+  margin-bottom: 10px;
+}
+
+.warning-content p {
+  margin: 10px 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #4e342e;
+}
+
+.whatsapp-link {
+  color: #25D366;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.instagram-link {
+  color: #E1306C;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.whatsapp-link:hover,
+.instagram-link:hover {
+  text-decoration: underline;
+}
+
+
+.menu-warning {
+    background-color: transparent; /* Removing the background box */
+    color: white; /* White text for contrast against the dark background */
+    font-size: 1.1rem; /* Adjust the font size for better readability */
+    line-height: 1.8; /* Increase line height for clarity */
+    margin-top: 20px;
+    padding: 10px 0;
+    font-weight: normal;
+}
+
+.menu-warning strong {
+    font-size: 1.3rem; /* Larger font size for the "Only for Pre-Orders" section */
+    color: #e63946; /* Bright red color to emphasize important info */
+}
+
+.menu-warning ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 15px;
+}
+
+.menu-warning li {
+    margin-bottom: 10px; /* Smaller margin for a compact, neat look */
+}
+
+.menu-warning li a {
+    color: #ffdd57; /* Light yellow for clickable links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-warning li a:hover {
+    color: #f1c40f; /* Slightly darker yellow for hover effect */
+    text-decoration: underline;
+}
+
+/* Additional styling for responsiveness */
+@media (max-width: 768px) {
+    .menu-warning {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
+
+.menu-warning {
+    background-color: #1e1e1e; /* Dark gray, not pitch black for comfort */
+    border-left: 4px solid #ff914d;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #f0f0f0;
+    line-height: 1.7;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 4px 10px rgba(255, 145, 77, 0.1);
+}
+.whatsapp-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 25px;
+    background-color: #25D366;
+    color: white !important;
+    border-radius: 30px;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-link:hover {
+    transform: scale(1.05);
+}
+
+.phone-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 25px;
+    background-color: #4CAF50; /* Or your brand color */
+    color: white !important;
+    border-radius: 30px;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+.email-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 25px;
+    background-color: #D44638; /* Gmail Red */
+    color: white !important;
+    border-radius: 30px;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.email-link:hover {
+    transform: scale(1.05);
+}
+
+
+.phone-link:hover {
+    transform: scale(1.05);
+}
+
+
+.contact-link {
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+.contact-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
+.menu-warning strong {
+    color: #ffb380;
+}
+
+.menu-warning ul {
+    padding-left: 1.2rem;
+    margin: 0.75rem 0 0 0;
+}
+
+.menu-warning li {
+    margin-bottom: 0.75rem;
+    list-style-type: disc;
+}
+
+
+
+.menu-pointers {
+    background-color: #fff8f0;
+    border-left: 5px solid #ff914d;
+    padding: 1rem 1.5rem;
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    font-family: 'Segoe UI', sans-serif;
+    white-space: pre-line; /* to maintain line breaks if needed */
+}
+
+.menu-pointers strong {
+    color: #c0392b;
+}
+
 .menu-item-content p {
     font-family: 'Arial', sans-serif; /* Clean and modern font */
     font-size: 1.1rem; /* Slightly larger font size for better readability */
