@@ -22,7 +22,7 @@
             <ul class="nav-links">
                 <li><a href="#" class="active" data-page="home">Home</a></li>
                 <li><a href="#" data-page="menu">Menu</a></li>
-                <li><a href="#" data-page="contact">Contact</a></li>
+                <li><a href="#contact" data-page="contact">Contact</a></li>
             </ul>
             <div class="hamburger">
                 <div class="line"></div>
@@ -60,17 +60,34 @@
         <section id="menu" class="page">
             <h2>Our Menu</h2>
             <div class="menu-filters">
-                <button class="filter-btn active" data-category="all">All Items</button>
+                <!-- <button class="filter-btn active" data-category="all">All Items</button> -->
                 <button class="filter-btn" data-category="starters">Starters</button>
-                <button class="filter-btn" data-category="main-courses">Main Courses</button>
+                <!-- <button class="filter-btn" data-category="main-courses">Main Courses</button>
                 <button class="filter-btn" data-category="desserts">Desserts</button>
-                <button class="filter-btn" data-category="drinks">Drinks</button>
+                <button class="filter-btn" data-category="drinks">Drinks</button> -->
             </div>
             <div class="menu-items" id="menu-items-container">
                 <!-- Menu items will be loaded dynamically from Google Sheets -->
                 <div class="loading-spinner"></div>
             </div>
-            <div class="menu-warning">* Please order at least 24 hours in advance *</div>
+            <!-- <div class="menu-warning">* ONLY FOR PRE-ORDERS*</div> -->
+            <div class="menu-warning">
+                <div class="warning-header">
+                  ⚠️ <strong>Pre-Orders Only</strong>
+                </div>
+                <div class="warning-content">
+                  <ul>
+                    <li>Place your order via <a href="https://wa.me/919819170840" target="_blank" class="whatsapp-link">WhatsApp</a> or <a href="https://instagram.com/thepotbharkitchen" target="_blank" class="instagram-link">Instagram</a>.</li>
+                    <li>Delivery charges are additional and will be confirmed at the time of ordering.</li>
+                    <li>Payments accepted via Google Pay or Paytm (online only).</li>
+                    <li><strong>Orders once placed cannot be canceled.</strong></li>
+                  </ul>
+                </div>
+            </div>
+              
+              
+            
+            
         </section>
 
         <section id="contact" class="page">
@@ -80,24 +97,33 @@
                     <div class="contact-card">
                         <i class="fab fa-whatsapp"></i>
                         <h3>WhatsApp Orders</h3>
-                        <p>+91 98765 43210</p>
+                        <a href="https://wa.me/919819170840" target="_blank" class="whatsapp-link">
+                            <i class="fab fa-whatsapp"></i> 
+                            +91 9819170840
+                        </a>    
+                        
                     </div>
                     <div class="contact-card">
                         <i class="fas fa-envelope"></i>
                         <h3>Email Us</h3>
-                        <p>orders@pothbarkitchen.com</p>
+                        <a href="mailto:thepotbharkitchen@gmail.com" class="email-link">
+                            <i class="fas fa-envelope"></i> thepotbharkitchen@gmail.com
+                        </a>
+                       
                     </div>
                     <div class="contact-card">
                         <i class="fab fa-instagram"></i>
                         <h3>Follow Us</h3>
-                        <a href="#" class="instagram-follow">
+                        <a href="https://instagram.com/thepotbharkitchen" target="_blank" class="instagram-follow contact-link">
                             <i class="fab fa-instagram"></i>
-                            @pothbar_kitchen
+                            @thepotbharkitchen
                         </a>
                     </div>
                 </div>
             </div>
         </section>
+        
+        
     </main>
     </main>
 
